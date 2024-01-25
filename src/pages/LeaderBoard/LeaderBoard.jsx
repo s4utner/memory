@@ -36,6 +36,7 @@ export function LeaderBoard() {
               position={position++}
               user={leader.name}
               time={leader.time}
+              achievements={leader.achievements}
               isTemplate={false}
             />
           );
